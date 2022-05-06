@@ -1,0 +1,11 @@
+.header{
+    /* стилі хедера */
+    /* задана фіксована висота, наприклад 100px */
+    height: 100px;
+    /* задаємо transition для плавного показу/приховування хедеру */
+    transition: transform 250ms linear;
+}
+.header.hide{
+    /* ховаємо вверх, мінус висоту хедера 100px */
+    transform: translateY(-100px); 
+}
