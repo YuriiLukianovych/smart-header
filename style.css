@@ -21,6 +21,10 @@
     position: fixed;
     top: 0;
     left: 0;
+
+    @media screen and (max-width: 767.9px) {
+        font-size: 28px;
+    }
 }
 .header.hide {
     /* ховаємо вверх, мінус висоту хедера 100px */
