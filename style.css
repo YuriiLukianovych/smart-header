@@ -1,11 +1,31 @@
-.header{
+* {
+    padding: 0;
+    margin: 0;
+}
+.header {
     /* стилі хедера */
     /* задана фіксована висота, наприклад 100px */
     height: 100px;
     /* задаємо transition для плавного показу/приховування хедеру */
     transition: transform 250ms linear;
+
+    background-color: tomato;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #fff;
+    font-size: 48px;
+    width: 100%;
+
+    position: fixed;
+    top: 0;
+    left: 0;
 }
-.header.hide{
+.header.hide {
     /* ховаємо вверх, мінус висоту хедера 100px */
-    transform: translateY(-100px); 
+    transform: translateY(-100px);
+}
+main {
+    padding: 20px;
 }
